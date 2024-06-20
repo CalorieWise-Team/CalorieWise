@@ -53,3 +53,36 @@ The model architecture using transfer learning with a pre-trained VGG16 model as
     - Output Dense Layer:
           - Units: Equal to the number of classes in the train_dataset.
           - Activation: Softmax, providing probabilities for each class.
+
+## Training
+The model is trained using the model.fit() method on the train_dataset for 30 epochs, with validation_generator providing the validation data. To enhance training efficiency and model performance, two key callbacks are employed: EarlyStopping and ReduceLROnPlateau.
+
+```python
+early_stopping = EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
+reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.2, patience=5, min_lr=0.00001)
+
+history = model.fit(
+    train_dataset,
+    epochs=30,
+    validation_data=validation_generator,
+    callbacks=[reduce_lr, early_stopping]
+)
+```
+
+- Model Training
+    - Method: model.fit()
+    - Training Data: train_dataset
+    - Epochs: 30
+    - Validation Data: validation_generator
+    - Callbacks: reduce_lr, early_stopping - Utilizes both callbacks for optimized training.
+
+- Callbacks
+    - EarlyStopping
+        - Monitor: val_loss - Stops training when validation loss stops improving.
+        - Patience: 10 epochs - Waits for 10 epochs before stopping if no improvement.
+        - Restore Best Weights: Restores model weights from the epoch with the best validation loss.
+    - ReduceLROnPlateau
+        - Monitor: val_loss - Reduces learning rate when validation loss plateaus.
+        - Factor: 0.2 - Reduces the learning rate by a factor of 0.2.
+        - Patience: 5 epochs - Waits for 5 epochs before reducing learning rate.
+        - Min LR: 0.00001 - Ensures the learning rate doesn't go below this threshold.
