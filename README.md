@@ -1,9 +1,52 @@
-# Background
+# CalorieWise
+
 CalorieWise is designed to address the increasing challenges people face regarding nutrition and calorie management. With obesity rates doubling over the past two decades, both adults and children are at risk of significant health and educational setbacks. The primary cause is irregular eating patterns and unhealthy lifestyles, particularly in calorie consumption. CalorieWise aims to simplify monitoring and managing calorie intake to promote healthier lifestyles.
 
+## Team
+
+| Nama                      | Bangkit-ID   | Path               |
+|---------------------------|--------------|--------------------|
+| Muhammad Raditya Putra    | M295D4KY2274 | Machine Learning   |
+| Malique Abdul Aziz        | M295D4KY2272 | Machine Learning   |
+| Muhammad Fatih Bagaskara  | M001D4KY1676 | Machine Learning   |
+| Daviana Dwitasari. E. F   | C269D4KX0433 | Cloud Computing    |
+| Rahmat Wahyudi            | C133D4KY0998 | Cloud Computing    |
+| Muhammad Fawwaz Naufal    | A001D4KY3890 | Mobile Development |
+| Akhdan Ravi Andaman       | A001D4KY3653 | Mobile Development |
+
+## Mobile Development
 
 
-# CalorieWise ML Documentation
+### Features
+- Login and Register
+![Logo](Login.png)
+
+- Adding your daily note. On this feature, user can make a daily note on what they been eating. And the note will be featured in note page
+![Logo](Note.png)
+- Food Searching. finding food and ingredients simply by typing the name of the food, you can find out the nutritional content of the food, namely calories, protein, fat, carbohydrate.
+![Logo](Searching.png)
+- Food Analyze. Pick image from camera, it will detect what is your food and the nutritions.
+![Logo](ML.png)
+
+- Food Recommendation, there are 2 options which is bulking for  gain weight or cuting for lose weight
+![Logo](recommend.png)
+- Profile Views.  with this feature you can change your profile photo, your name, your email.
+![Logo](Profile2.png)
+
+- Food History. you can see the history of the nutritions of your meals by date
+![Logo](history.png)
+
+
+### Tools
+ Android Studio
+- JRE (Java Runtime Environment) or JDK (Java Development Kit).
+  
+
+
+
+
+
+# Machine Learning
 We developed a highly efficient food image classification model using custom convolutional neural networks (CNN) combined with transfer learning using VGG16. Utilizing the VGG16 architecture, a well-known and highly effective deep learning model, we significantly enhanced our model's performance. We trained this model with thousands of food images across 14 class labels, achieving an accuracy rate of over 80%. This ensures our application can reliably provide users with precise nutritional information based on their uploaded food images.
 
 ## Datasets
@@ -91,8 +134,8 @@ history = model.fit(
         - Factor: 0.2 - Reduces the learning rate by a factor of 0.2.
         - Patience: 5 epochs - Waits for 5 epochs before reducing learning rate.
         - Min LR: 0.00001 - Ensures the learning rate doesn't go below this threshold.
-# CalorieWise API Documentation 
-## URL
+## Cloud Computing
+### URL
 
 ## Register Profile
 
