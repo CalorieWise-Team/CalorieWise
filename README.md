@@ -142,10 +142,11 @@ history = model.fit(
 ## Cloud Computing
 
 ### Cloud Architecture
+
 ![CC](./Cloud%20Computing/images/cloudarchitecture.jpg)
 
 ### Database Design
-![CC](./Cloud%20Computing/images/db.png)
+![db](./Cloud%20Computing/images/db.png)
 
 
 
