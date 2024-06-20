@@ -22,7 +22,8 @@ For the datasets, we search from various sources on Kaggle and merge them togeth
 ## Model
 This is our [Model](https://drive.google.com/drive/folders/1gVJCdNCKionhBdR5HBitFLLD7O0DSGHj?usp=sharing)
 
-'''json
+'''python
+base_model = VGG16(weights='imagenet', include_top=False, input_shape=(224, 224, 3))
 model = models.Sequential([
     base_model,
     layers.Flatten(),
@@ -32,3 +33,22 @@ model = models.Sequential([
 ])
 
 The model architecture using transfer learning with a pre-trained VGG16 model as a feature extractor, combined with custom layers for classification. Below is a brief explanation for our Image Classification Model Architecture:
+
+- Base Model: VGG16
+    - Weights: Pre-trained on ImageNet.
+    - Top Layers: Excluded.
+    - Input Shape: (224, 224, 3), matching the input image dimensions.
+    - Purpose: Acts as a powerful feature extractor, leveraging its learned convolutional filters.
+      
+- Custom Layers
+
+    - Flatten Layer: Converts the 3D feature maps from the VGG16 model into a 1D feature vector.
+    - Dense Layer:
+          - Units: 512 neurons.
+          - Activation: ReLU (Rectified Linear Unit).
+          - Regularization: L2 regularization with a penalty factor of 0.001 to prevent overfitting.
+    - Dropout Layer:
+          - Rate: 0.6, dropping 60% of the units to further mitigate overfitting.
+    - Output Dense Layer:
+          - Units: Equal to the number of classes in the train_dataset.
+          - Activation: Softmax, providing probabilities for each class.
