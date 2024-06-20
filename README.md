@@ -49,6 +49,9 @@ CalorieWise is designed to address the increasing challenges people face regardi
 # Machine Learning
 We developed a highly efficient food image classification model using custom convolutional neural networks (CNN) combined with transfer learning using VGG16. Utilizing the VGG16 architecture, a well-known and highly effective deep learning model, we significantly enhanced our model's performance. We trained this model with thousands of food images across 14 class labels, achieving an accuracy rate of over 80%. This ensures our application can reliably provide users with precise nutritional information based on their uploaded food images.
 
+
+![History](./Machine%20Learning/.images/models.png)
+
 ## Datasets
 This is our [Dataset](https://drive.google.com/drive/folders/1gVJCdNCKionhBdR5HBitFLLD7O0DSGHj?usp=sharing)
 For the datasets, we search from various sources on Kaggle and merge them together. So that 14 labels are collected, which are:
@@ -116,7 +119,7 @@ history = model.fit(
     callbacks=[reduce_lr, early_stopping]
 )
 ```
-![History](./Machine%20Learning/.images/models.png)
+
 - Model Training
     - Method: model.fit()
     - Training Data: train_dataset
