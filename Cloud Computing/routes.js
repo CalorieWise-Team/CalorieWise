@@ -8,7 +8,7 @@ const { db, config } = require('./db');
 const { storageClient, bucketName, upload, uploadSingle, uploadMultiple, handleMulterError } = require('./cloudstorage');
 
 router.use(express.json());
-const defaultImageUrl = 'https://storage.googleapis.com/caloriewise-bucket-c241-ps066/images/profile/default.jpg';
+const defaultImageUrl = 'https://storage.googleapis.com/${bucketName}/images/profile/default.jpg';
 
 const verifyToken = async (req, res, next) => {
     const authHeader = req.headers.authorization;
