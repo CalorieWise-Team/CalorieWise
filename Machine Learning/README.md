@@ -31,6 +31,7 @@ model = models.Sequential([
     layers.Dropout(0.6),
     layers.Dense(train_dataset.num_classes, activation='softmax')
 ])
+'''
 
 The model architecture using transfer learning with a pre-trained VGG16 model as a feature extractor, combined with custom layers for classification. Below is a brief explanation for our Image Classification Model Architecture:
 
