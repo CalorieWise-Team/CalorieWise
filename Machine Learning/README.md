@@ -1,5 +1,9 @@
-# CalorieWise ML Documentation
+
+# Machine Learning
 We developed a highly efficient food image classification model using custom convolutional neural networks (CNN) combined with transfer learning using VGG16. Utilizing the VGG16 architecture, a well-known and highly effective deep learning model, we significantly enhanced our model's performance. We trained this model with thousands of food images across 14 class labels, achieving an accuracy rate of over 80%. This ensures our application can reliably provide users with precise nutritional information based on their uploaded food images.
+
+
+![History](./.images/models.png)
 
 ## Datasets
 This is our [Dataset](https://drive.google.com/drive/folders/1gVJCdNCKionhBdR5HBitFLLD7O0DSGHj?usp=sharing)
@@ -20,7 +24,7 @@ For the datasets, we search from various sources on Kaggle and merge them togeth
 14. Yoghurt
 
 ## Model
-This is our [Model](https://drive.google.com/drive/folders/1mk_ummae3FHSwoSOdjGgohM9Jd1VmCQZ?usp=sharing)
+This is our [Model]([https://drive.google.com/drive/folders/1gVJCdNCKionhBdR5HBitFLLD7O0DSGHj?usp=sharing](https://drive.google.com/drive/folders/1mk_ummae3FHSwoSOdjGgohM9Jd1VmCQZ?usp=sharing))
 
 ```python
 base_model = VGG16(weights='imagenet', include_top=False, input_shape=(224, 224, 3))
@@ -86,3 +90,49 @@ history = model.fit(
         - Factor: 0.2 - Reduces the learning rate by a factor of 0.2.
         - Patience: 5 epochs - Waits for 5 epochs before reducing learning rate.
         - Min LR: 0.00001 - Ensures the learning rate doesn't go below this threshold.
+
+## ML API Documentation 
+### URL
+https://backend-ml-api-4-gsmsrhmyzq-et.a.run.app/
+## Predict Image
+
+#### URL
+`/predict`
+
+#### Method
+POST
+
+
+#### Parameters
+- `photo` : file multipartbody
+
+
+#### Request Body and Response JSON
+##### Request Body 
+-
+  ```json
+  {
+    "photo": file(image/jpeg, image/png) 
+  }
+
+- Response 200 OK
+  ```json
+    {
+    "confidenceScore": 85.97714900970459,
+    "data": [
+        {
+            "calories": 76,
+            "carbohydrate": 9.2,
+            "fat": 2.5,
+            "food_id": 64,
+            "image_url": "https://storage.googleapis.com/caloriewise-bucket-c241-ps066/images/foods/64.jpg",
+            "name": "Bakso",
+            "proteins": 4.1
+        }
+    ],
+    "error": false,
+    "isAboveThreshold": true,
+    "message": "Model is predicted successfully.",
+    "status": 200
+    }
+
