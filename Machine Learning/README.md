@@ -22,7 +22,7 @@ For the datasets, we search from various sources on Kaggle and merge them togeth
 ## Model
 This is our [Model](https://drive.google.com/drive/folders/1gVJCdNCKionhBdR5HBitFLLD7O0DSGHj?usp=sharing)
 
-'''python
+```python
 base_model = VGG16(weights='imagenet', include_top=False, input_shape=(224, 224, 3))
 model = models.Sequential([
     base_model,
@@ -31,7 +31,7 @@ model = models.Sequential([
     layers.Dropout(0.6),
     layers.Dense(train_dataset.num_classes, activation='softmax')
 ])
-'''
+```
 
 The model architecture using transfer learning with a pre-trained VGG16 model as a feature extractor, combined with custom layers for classification. Below is a brief explanation for our Image Classification Model Architecture:
 
