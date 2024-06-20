@@ -43,7 +43,7 @@ CalorieWise is designed to address the increasing challenges people face regardi
 
 
 ### Tools
- Android Studio
+- Android Studio
 - JRE (Java Runtime Environment) or JDK (Java Development Kit).
   
 
