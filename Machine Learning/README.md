@@ -20,7 +20,7 @@ For the datasets, we search from various sources on Kaggle and merge them togeth
 14. Yoghurt
 
 ## Model
-This is our [Model]([https://drive.google.com/drive/folders/1gVJCdNCKionhBdR5HBitFLLD7O0DSGHj?usp=sharing](https://drive.google.com/drive/folders/1mk_ummae3FHSwoSOdjGgohM9Jd1VmCQZ?usp=sharing))
+This is our [Model](https://drive.google.com/drive/folders/1mk_ummae3FHSwoSOdjGgohM9Jd1VmCQZ?usp=sharing)
 
 ```python
 base_model = VGG16(weights='imagenet', include_top=False, input_shape=(224, 224, 3))
