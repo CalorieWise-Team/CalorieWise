@@ -18,23 +18,28 @@ CalorieWise is designed to address the increasing challenges people face regardi
 
 
 ### Features
-- Login and Register
-![Logo](Login.png)
 
-- Adding your daily note. On this feature, user can make a daily note on what they been eating. And the note will be featured in note page
-![Logo](Note.png)
-- Food Searching. finding food and ingredients simply by typing the name of the food, you can find out the nutritional content of the food, namely calories, protein, fat, carbohydrate.
-![Logo](Searching.png)
-- Food Analyze. Pick image from camera, it will detect what is your food and the nutritions.
-![Logo](ML.png)
 
-- Food Recommendation, there are 2 options which is bulking for  gain weight or cuting for lose weight
-![Logo](recommend.png)
-- Profile Views.  with this feature you can change your profile photo, your name, your email.
-![Logo](Profile2.png)
+- Login and Register  
+![Login](./Mobile%20Development/images_mockup/Login.png)
 
-- Food History. you can see the history of the nutritions of your meals by date
-![Logo](history.png)
+- Adding your daily note. On this feature, user can make a daily note on what they been eating. And the note will be featured in note page  
+![Note](./Mobile%20Development/images_mockup/Note.png)
+
+- Food Searching. finding food and ingredients simply by typing the name of the food, you can find out the nutritional content of the food, namely calories, protein, fat, carbohydrate.  
+![Searching](./Mobile%20Development/images_mockup/Searching.png)
+
+- Food Analyze. Pick image from camera, it will detect what is your food and the nutritions.  
+![ML](./Mobile%20Development/images_mockup/ML.png)
+
+- Food Recommendation, there are 2 options which is bulking for gain weight or cutting for lose weight  
+![Recommendation](./Mobile%20Development/images_mockup/recommend.png)
+
+- Profile Views. with this feature you can change your profile photo, your name, your email.  
+![Profile](./Mobile%20Development/images_mockup/Profile2.png)
+
+- Food History. you can see the history of the nutritions of your meals by date  
+![History](./Mobile%20Development/images_mockup/history.png)
 
 
 ### Tools
@@ -135,9 +140,23 @@ history = model.fit(
         - Patience: 5 epochs - Waits for 5 epochs before reducing learning rate.
         - Min LR: 0.00001 - Ensures the learning rate doesn't go below this threshold.
 ## Cloud Computing
+
+### Cloud Architecture
+![CC](./Cloud%20Computing/images/cloudarchitecture.jpg)
+
+### Database Design
+![CC](./Cloud%20Computing/images/db.png)
+
+
+
+## API Documentation
+
 ### URL
+https://api-backend-dot-caloriewise-425017.et.r.appspot.com/
 
 ## Register Profile
+
+
 
 #### URL
 `/register`
