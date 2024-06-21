@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">CalorieWise</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="welcome">Welcome to CalorieWise</string>
+    <string name="login_description">Begin your health journey! Please log in to get started.</string>
+    <string name="login">Login</string>
+    <string name="message_welcome_page">Start your healthy journey with CalorieWise!</string>
+    <string name="title_welcome_page">Welcome to CalorieWise!</string>
+    <string name="title_signup_page">Create your account and begin your healthy life!</string>
+    <string name="email">Email</string>
+    <string name="login_now">Log in now</string>
+    <string name="signup_description">Create your account and begin your healthy life!</string>
+    <string name="empty_name">Please enter your name address to proceed.</string>
+    <string name="empty_gender">Please enter your gender to proceed.</string>
+    <string name="password">Password</string>
+    <string name="title_of_login">title login</string>
+    <string name="editteksprofilegender">Masukan Gender</string>
+    <string name="email_input_field">email input field</string>
+    <string name="gender_input_field">Gender input field</string>
+    <string name="login_button">login button</string>
+    <string name="login_title">login title</string>
+    <string name="caloriewise">caloriewise</string>
+    <string name="successfully_logged_in">successfully_logged_in</string>
+    <string name="successfully_logged_out">You have successfully logged out</string>
+    <string name="signup_now">signup now</string>
+    <string name="empty_email">Please enter your email address to proceed.</string>
+    <string name="empty_password">Please enter your password to proceed.</string>
+    <string name="continue_login">Continue</string>
+    <string name="register_message">You can now log in and start exploring our platform. \n Press \'Continue\' to proceed to the login page.</string>
+    <string name="register_success">Congratulations! Your account has been successfully created.</string>
+    <string name="signup_title">Join %1$s today and unleash your storytelling potential!</string>
+    <string name="sign_up_button">button signup</string>
+    <string name="login_to_signup">Don\'t have an account yet? %1$s and start sharing your healthy life style!</string>
+    <string name="password_input_field">password input field</string>
+    <string name="description_of_signup">Sign up description</string>
+    <string name="signup_to_login">Already have an account? %1$s and continue your story journey with us!</string>
+    <string name="title_of_signup">title of signup</string>
+    <string name="caloriewise_s_logo">caloriewise s logo</string>
+    <string name="register_button">register button</string>
+    <string name="description_of_login">Deskripsi title login</string>
+    <string name="message_login_page">Building healthy lifestyle together..</string>
+    <string name="title_login_page">Lets start your healthy journey with CalorieWise..</string>
+    <string name="name">Nama</string>
+    <string name="edittekspassword">Masukan Password</string>
+    <string name="editteksprofilnama">Isi Nama Lengkap Anda Disini</string>
+    <string name="editteksprofilemail">Isi Alamat EMail Anda Disini</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="logout">Logout</string>
+    <string name="foodrec">FoodRec</string>
+    <string name="searchbar_hint">Search</string>
+    <string name="edit">Edit</string>
+    <string name="riwayat">Food Eaten Statistic</string>
+    <string name="fb_add_note">Floating Button Add Note</string>
+    <string name="create_your_daily">Create your daily note here..</string>
+    <string name="daily_note">Your Daily Note</string>
+    <string name="passwords_must_have_at_least_8_characters">Password harus lebih dari 8 characters</string>
+    <string name="invalid_email_format">Gunakan Email yang benar</string>
+    <string name="item_label_gender">Gender</string>
+    <string name="item_label_gender_content_description">Item Label Genfer Content Deskripsi</string>
+
+
+
+    <string name="food_name">Food Name</string>
+    <string name="food_desc">Food Description</string>
+
+    <string name="note_name">Note Title</string>
+    <string name="note_desc">Note Description</string>
+    <string name="note_date">Note Date</string>
+    <string name="s_story">%1$s \'s story</string>
+    <string name="m_story">%1$s \</string>
+    <string name="detail_story">Your Note</string>
+    <string name="add_new_story">Add New Note</string>
+    <string name="description">Start writing your story..</string>
+    <string name="title">Title of your story..</string>
+    <string name="upload">UPLOAD</string>
+    <string name="analyze">Analyze</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+
+    <string name="detach_food">Upload Your Food</string>
+    <string name="result_food">Your Food Result</string>
+    <string name="result_food_detail">Calorie Detail</string>
+    <string name="makanan">Food</string>
+    <string name="isi">Masukan jumlah yang diinginkan</string>
+    <string name="meal">Makan apa hari ini?</string>
+    <string name="meal_saved">Meals berahasil di tambahkan</string>
+    <string name="failed_to_save_meal">Mohon maaf failed to save meal</string>
+    <string name="calorie">Calories</string>
+    <string name="fat">Fat</string>
+    <string name="carbs">Carbs</string>
+    <string name="protein">Protein</string>
+    <string name="hasil">42</string>
+    <string name="gender">Gender</string>
+    <string name="save">Save Data</string>
+    <string name="foodsEaten">Food Eaten Stats </string>
+    <string name="nama_lengkap">Full Name</string>
+    <string name="change">Change Image</string>
+    <string name="profil">Profile Data</string>
+    <string name="carbs_label_description">Carbohydrate label</string>
+    <string name="carbs_label">Carbs</string>
+    <string name="plus_edit">text tambah</string>
+    <string name="carbs_value_description">0g</string>
+    <string name="value_fat">0</string>
+    <string name="value_prot">11,2g</string>
+    <string name="empty_image_warning">Silakan masukkan berkas gambar terlebih dahulu.</string>
+    <string name="result">Hasil Analisis</string>
+    <string name="analisis">Hasil Analisis</string>
+    <string name="tambah">tambah</string>
+    <string name="date">Minggu, 27 April 2024</string>
+    <string name="food">Food</string>
+    <string name="cal_kcal">Cals\n(Kcal)</string>
+    <string name="times_eaten">Times\nEaten</string>
+    <string name="value_eaten">X1</string>
+    <string name="riwayat_activity_title">Foods Eaten Stats</string>
+
+    <string name="bulking">Bulking</string>
+    <string name="cutting">Cutting</string>
+    <string name="ingredient">Ingredients</string>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Failed Condition  -->
+    <string name="not_available">Not available.</string>
+    <string name="story_not_available">Story not available.</string>
+    <string name="no_media_selected">No media selected.</string>
+    <string name="permission_request_denied">Permission request denied.</string>
+    <string name="please_select_an_image_first">Please select an image first.</string>
+    <string name="failed_to_load_data">Failed to load data.</string>
+
+    <!-- Content Description -->
+    <string name="navigation_and_actions">Navigation and actions</string>
+    <string name="upload_new_story">Upload new note</string>
+    <string name="list_of_stories">List of note</string>
+    <string name="preview_of_selected_image">Preview of selected image</string>
+    <string name="open_gallery_to_select_image">Open gallery to select image</string>
+    <string name="take_photo_with_camera">Take photo with camera</string>
+    <string name="enter_description_for_the_image">Enter description for the image</string>
+    <string name="upload_the_selected_image">Upload the selected image</string>
+    <string name="camera_preview">Camera preview</string>
+    <string name="capture_image">Capture image</string>
+    <string name="story_image">Note image</string>
+    <string name="search_image">Search image</string>
+    <string name="story_name">Note name</string>
+    <string name="story_date">Note date</string>
+    <string name="story_description">Note description</string>
+
+    <!-- Success condition -->
+    <string name="permission_request_granted">Permission request granted.</string>
+
+</resources>

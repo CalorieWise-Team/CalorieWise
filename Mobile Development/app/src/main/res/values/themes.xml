@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Caloriewisebeta" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green_main</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/primary_main</item>
+        <item name="colorSecondaryVariant">@color/secondary_main</item>
+
+        <item name="backgroundColor">@color/white</item>
+        <item name="android:statusBarColor">@color/primary_main</item>
+
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowEnterTransition">@android:transition/slide_right</item>
+        <item name="android:windowExitTransition">@android:transition/slide_left</item>
+    </style>
+
+    <style name="Theme.Caloriewisebeta" parent="Base.Theme.Caloriewisebeta" />
+</resources>
