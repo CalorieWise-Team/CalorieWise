@@ -1,5 +1,4 @@
-# Cloud Computing API Documentation
-
+# Cloud Computing
 ### Cloud Architecture
 
 ![CC](./Images/cloud.jpg)
