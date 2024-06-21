@@ -1,4 +1,18 @@
-# CalorieWise API Documentation 
+# Cloud Computing API Documentation
+
+### Cloud Architecture
+
+![CC](./Images/cloud.jpg)
+
+### Database Design
+![db](./Images/db.png)
+
+
+
+## API Documentation
+
+### URL
+https://api-backend-dot-caloriewise-425017.et.r.appspot.com/
 ## URL
 
 ## Register Profile
